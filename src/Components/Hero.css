@@ -1,0 +1,37 @@
+/* .before-header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+
+
+
+    @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) { 
+
+        .hero_section{
+      margin-top: 10%;
+        
+        }
+    }
+
+@media screen and (max-width:500px) {
+    #hero_para{
+        font-size: 2rem;
+
+    }
+    .mr_flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #img_operation{
+        padding-top: 0%;
+                height: 12rem;
+        padding: 0%;
+    }
+    
+}
+
+#operation_div{
+    padding-top: 3%;
+}
